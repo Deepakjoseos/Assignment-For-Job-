@@ -1,5 +1,6 @@
 import React from 'react';
 import './main.css';
+import { FaFile} from 'react-icons/fa'
 function Main(props) {
     const data = [{
       "damName": "Shirawata Dam",
@@ -26,7 +27,7 @@ function Main(props) {
       <p><h6>river</h6>{key.river}</p>
       <p><h6>location</h6>{key.location}</p>
 
-        <button className="button1"><a href="https://storage.googleapis.com/eyerov-hiring-tasks/testReport.pdf">Open Soft-Copy Report</a></button>
+        <button className="button1"><FaFile color='white' /><a href="https://storage.googleapis.com/eyerov-hiring-tasks/testReport.pdf">Open Soft-Copy Report</a></button>
       </div>
       )}
     )}
