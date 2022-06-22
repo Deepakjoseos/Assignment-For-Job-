@@ -1,0 +1,62 @@
+.card{
+    display: flex;
+}
+.card .card1{
+    height: 570px;
+    width: 600px;
+    margin-top: 3rem;
+    margin-left: 3.7rem;
+    box-shadow: 0px 18px 18px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    padding: 20px 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.card h2{
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 1rem 1rem;
+    font-weight: 700;
+}
+.card1 img{
+    height: 380px;
+    width: 550px;
+    border-radius: 5px;
+
+}
+.buttons{
+    display: flex;
+    padding: 1rem 1rem;
+}
+.buttons .button2{
+    height: 60px;
+        border-radius: 3px;
+        width: 300px;
+        box-shadow: 0px 18px 18px 0px rgba(0, 0, 0, 0.3);
+        background-color: rgb(240, 71, 71);
+        border-color:rgb(240, 71, 71);
+        padding: 1rem 1rem;
+}
+.buttons .button2 a{
+        text-decoration: none;
+        color: white;
+        font-weight: 700;
+        font-size: medium;
+}
+.buttons .button3{
+    height: 60px;
+    border-radius: 3px;
+    width: 300px;
+    box-shadow: 0px 18px 18px 0px rgba(0, 0, 0, 0.3);
+    background-color: rgb(140, 27, 247);
+    border-color: rgb(140, 27, 247);
+    padding: 1rem 1rem;
+    margin-left: 1rem;
+}
+.buttons .button3 a{
+    text-decoration: none;
+        color: white;
+        font-weight: 700;
+        font-size: medium;
+}
