@@ -90,7 +90,7 @@ header .nav-btn{
         background-color: var(--mainColor);
         transition: 1s;
         transform: translateX(-50vh);
-        position: sticky;
+        position:fixed;
     }
     header .responsive_nav{
         transform: none;
